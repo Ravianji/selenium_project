@@ -41,6 +41,7 @@ public class BaseClass {
 		if(utility.readingDataFromPropertFile("browser").equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
+			System.out.println("done");
 		}
 		else {
 			WebDriverManager.edgedriver().setup();
