@@ -11,7 +11,7 @@ import objectRepository.ContactPage;
 public class TC_01_Test extends BaseClass {
 	@Test
 	public void createOraganization()  {
-	
+	syso
 		contactPage =new ContactPage(driver);
 		System.out.println("from create organization");
 		homePage.getOrganizatinsTab().click();
