@@ -13,6 +13,7 @@ public class TC_01_Test extends BaseClass {
 	public void createOraganization()  {
 	
 		contactPage =new ContactPage(driver);
+		System.out.println("from create organization");
 		homePage.getOrganizatinsTab().click();
 		ogpage.getCreateOrganizationButton().click();
 		ogpage.getOrganizationNameTF().sendKeys(utility.readingDataFromPropertFile("orgname"));
